@@ -43,7 +43,7 @@ async function searchImages() {
 
     //page increment
     page++;
-    //show more button incase results are more than one page
+    //show more button incase the search results are more than one page
     if (page > 1) {
         showMore.style.display = "block";
     }
